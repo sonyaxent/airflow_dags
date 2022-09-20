@@ -1,0 +1,16 @@
+[2022-09-20T12:23:49.461+0200] {processor.py:156} INFO - Started process (PID=63593) to work on /Users/sonyaxent/PycharmProjects/airflow_dags/airflow/dags/my_dag.py
+[2022-09-20T12:23:49.466+0200] {processor.py:758} INFO - Processing file /Users/sonyaxent/PycharmProjects/airflow_dags/airflow/dags/my_dag.py for tasks to queue
+[2022-09-20T12:23:49.466+0200] {logging_mixin.py:117} INFO - [2022-09-20T12:23:49.466+0200] {dagbag.py:525} INFO - Filling up the DagBag from /Users/sonyaxent/PycharmProjects/airflow_dags/airflow/dags/my_dag.py
+[2022-09-20T12:23:49.951+0200] {processor.py:768} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/sonyaxent/PycharmProjects/airflow_dags/airflow/dags/my_dag.py
+[2022-09-20T12:23:50.335+0200] {logging_mixin.py:117} INFO - [2022-09-20T12:23:50.335+0200] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-20T12:23:50.349+0200] {logging_mixin.py:117} INFO - [2022-09-20T12:23:50.349+0200] {dag.py:3324} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2022-09-20T12:23:50.363+0200] {processor.py:178} INFO - Processing /Users/sonyaxent/PycharmProjects/airflow_dags/airflow/dags/my_dag.py took 0.903 seconds
+[2022-09-20T12:24:20.310+0200] {processor.py:156} INFO - Started process (PID=63638) to work on /Users/sonyaxent/PycharmProjects/airflow_dags/airflow/dags/my_dag.py
+[2022-09-20T12:24:20.316+0200] {processor.py:758} INFO - Processing file /Users/sonyaxent/PycharmProjects/airflow_dags/airflow/dags/my_dag.py for tasks to queue
+[2022-09-20T12:24:20.317+0200] {logging_mixin.py:117} INFO - [2022-09-20T12:24:20.317+0200] {dagbag.py:525} INFO - Filling up the DagBag from /Users/sonyaxent/PycharmProjects/airflow_dags/airflow/dags/my_dag.py
+[2022-09-20T12:24:20.738+0200] {processor.py:768} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /Users/sonyaxent/PycharmProjects/airflow_dags/airflow/dags/my_dag.py
+[2022-09-20T12:24:20.877+0200] {logging_mixin.py:117} WARNING - /Users/sonyaxent/.local/share/virtualenvs/sonyaxent-YA4QR0Vi/lib/python3.10/site-packages/airflow/models/taskinstance.py:873 SAWarning: TypeDecorator ExecutorConfigType() will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-09-20T12:24:20.948+0200] {processor.py:727} INFO - Executed failure callback for <TaskInstance: etl_dag.get_data manual__2022-09-20T10:24:15.626664+00:00 [failed]> in state failed
+[2022-09-20T12:24:21.243+0200] {logging_mixin.py:117} INFO - [2022-09-20T12:24:21.243+0200] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-20T12:24:21.256+0200] {logging_mixin.py:117} INFO - [2022-09-20T12:24:21.256+0200] {dag.py:3324} INFO - Setting next_dagrun for etl_dag to None, run_after=None
+[2022-09-20T12:24:21.269+0200] {processor.py:178} INFO - Processing /Users/sonyaxent/PycharmProjects/airflow_dags/airflow/dags/my_dag.py took 0.959 seconds
